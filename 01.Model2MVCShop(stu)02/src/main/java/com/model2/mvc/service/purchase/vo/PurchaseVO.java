@@ -9,9 +9,9 @@ import com.model2.mvc.service.user.vo.UserVO;
 public class PurchaseVO {
 	
 	private UserVO buyer;
-	private String divyAddr;
-	private String divyDate;
-	private String divyRequest;
+	private String dlvyAddr;
+	private String dlvyDate;
+	private String dlvyRequest;
 	private Date orderDate;
 	private String paymentOption;
 	private ProductVO purchaseProd;
@@ -29,23 +29,23 @@ public class PurchaseVO {
 	public void setBuyer(UserVO buyer) {
 		this.buyer = buyer;
 	}
-	public String getDivyAddr() {
-		return divyAddr;
+	public String getDlvyAddr() {
+		return dlvyAddr;
 	}
-	public void setDivyAddr(String divyAddr) {
-		this.divyAddr = divyAddr;
+	public void setDlvyAddr(String divyAddr) {
+		this.dlvyAddr = divyAddr;
 	}
-	public String getDivyDate() {
-		return divyDate;
+	public String getDlvyDate() {
+		return dlvyDate;
 	}
-	public void setDivyDate(String divyDate) {
-		this.divyDate = divyDate;
+	public void setDlvyDate(String divyDate) {
+		this.dlvyDate = divyDate;
 	}
-	public String getDivyRequest() {
-		return divyRequest;
+	public String getDlvyRequest() {
+		return dlvyRequest;
 	}
-	public void setDivyRequest(String divyRequest) {
-		this.divyRequest = divyRequest;
+	public void setDlvyRequest(String divyRequest) {
+		this.dlvyRequest = divyRequest;
 	}
 	public Date getOrderDate() {
 		return orderDate;
@@ -92,8 +92,8 @@ public class PurchaseVO {
 	
 	@Override
 	public String toString() {
-		return "PurchaseVO [buyer=" + buyer + ", divyAddr=" + divyAddr
-				+ ", divyDate=" + divyDate + ", divyRequest=" + divyRequest
+		return "PurchaseVO [buyer=" + buyer + ", divyAddr=" + dlvyAddr
+				+ ", divyDate=" + dlvyDate + ", divyRequest=" + dlvyRequest
 				+ ", orderDate=" + orderDate + ", paymentOption="
 				+ paymentOption + ", purchaseProd=" + purchaseProd
 				+ ", receiverName=" + receiverName + ", receiverPhone="
