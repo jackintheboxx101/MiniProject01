@@ -15,21 +15,21 @@ public class PurchaseServiceImpl  implements PurchaseService{
 		purchaseDAO = new PurchaseDAO();
 	}
 	
-	public PurchaseVO addPurchaseVO(PurchaseVO purchaseVO) throws Exception{
+	public PurchaseVO addPurchase(PurchaseVO purchaseVO) throws Exception{
 		return purchaseVO; 
 	}
 		
-	public PurchaseVO getPurchaseVO(int tranNo) throws Exception{}
-	
-	public HashMap<String, Object> getPurchaseList(SearchVO searchVO) throws Exception{}
-	//searchVO => String
-	public HashMap<String, Object> getSaleList(SearchVO searchVO) throws Exception{}
-	
-	public PurchaseVO updtePurchaseVO(PurchaseVO purchaseVO)throws Exception{}
-	
-	public void updateTranCode(PurchaseVO purchaseVO) throws Exception{}
-		
-
-	
+//	public PurchaseVO getPurchase(int tranNo) throws Exception{}
+//	
+//	public HashMap<String, Object> getPurchaseList(SearchVO searchVO) throws Exception{}
+//	//searchVO => String
+//	public HashMap<String, Object> getSaleList(SearchVO searchVO) throws Exception{}
+//	
+//	public PurchaseVO updatePurchase(PurchaseVO purchaseVO)throws Exception{}
+//	
+//	public void updateTranCode(PurchaseVO purchaseVO) throws Exception{}
+//		
+//
+//	
 		
 }

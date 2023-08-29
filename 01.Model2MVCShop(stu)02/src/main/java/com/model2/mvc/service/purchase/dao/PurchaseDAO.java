@@ -58,24 +58,24 @@ public class PurchaseDAO {
 			}
 		}
 		
-		public HashMap<String, Object> getPurchaseList(SearchVO String)throws Exception{
-		//구매목록 보기 	
-			
-		}
-		
-		public HashMap<String, Object> getSaleList(SearchVO searchVO)throws Exception{
-		//판매목록 보기 	
-		}
-		
-		public void insertPurchase (PurchaseVO purchaseVO)throws Exception{
-		//구매	
-		}
-		
-		public void updatePurchase(PurchaseVO purchaseVO)throws Exception{
-		//구매정보수정 	
-		}
-		
-		public void updateTranCode(PurchaseVO purchaseVO)throws Exception{
-		//구매 상태 코드 수정 	
-		}
+//		public HashMap<String, Object> getPurchaseList(SearchVO String)throws Exception{
+//		//구매목록 보기 	
+//			
+//		}
+//		
+//		public HashMap<String, Object> getSaleList(SearchVO searchVO)throws Exception{
+//		//판매목록 보기 	
+//		}
+//		
+//		public void insertPurchase (PurchaseVO purchaseVO)throws Exception{
+//		//구매	
+//		}
+//		
+//		public void updatePurchase(PurchaseVO purchaseVO)throws Exception{
+//		//구매정보수정 	
+//		}
+//		
+//		public void updateTranCode(PurchaseVO purchaseVO)throws Exception{
+//		//구매 상태 코드 수정 	
+//		}
 }
